@@ -1,0 +1,1 @@
+# A function to get max sum of N consecutive elements in array
