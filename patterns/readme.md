@@ -1,0 +1,1 @@
+![pattern](../images/Screenshot 2024-10-03 at 11.38.33 AM.png)

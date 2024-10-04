@@ -1,0 +1,1 @@
+# Define our own interface to do same job
