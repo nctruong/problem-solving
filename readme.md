@@ -23,6 +23,12 @@ config.generators do |g|
       g.controller_specs false
     end
 ```
+rails_helper.rb
+```ruby
+config.include Devise::Test::ControllerHelpers, type: :controller # sign_in(user)
+config.include Devise::Test::IntegrationHelpers, type: :request # for request specs
+config.include FactoryBot::Syntax::Methods # create(:user)
+```
 # Node
 Test filename must be *.test.js
 ```bash
